@@ -7,6 +7,7 @@
 
 -> Retreive and update customers via a mobile application:
 * GET & PUT Method supports the individual(/Customers/{id}) as well bulk(/customers ) updation/retrieving the customers
+* DELETE Method supports the deletion of the customer record.
 
 -> Extension of the API to support resources such as orders and products: 
 * It would be very simple to re-use the existing call structures, rename the /customers to /orders (for example), define an order object and alter the !includes. 
